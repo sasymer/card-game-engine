@@ -1,0 +1,62 @@
+.root {
+  -fx-font-size: 18pt;
+  -fx-accent: #1e74c6;
+  -fx-font-family: "Segoe UI Semibold";
+  -fx-base: navy;
+  -fx-text-alignment: center;
+  -fx-text-base-color:white;
+}
+
+
+.button {
+  -fx-text-fill: white;
+  -fx-border-color: white;
+  -fx-border-radius: 18;
+  -fx-background-radius: 20;
+  -fx-padding: 8;
+}
+.button:hover {
+  -fx-background-color: green;
+}
+
+#SplashScreen{
+
+  -fx-background-color: #ffeee9;
+  -fx-font-family: "Roboto Thin";
+  -fx-font-size: 60;
+}
+
+
+
+.toggle-button{
+  -fx-background-radius:80;
+  -fx-background-color: #323232;
+  -fx-border-color: pink;
+  -fx-border-radius: 18;
+}
+
+.toggle-button:hover{
+  -fx-background-color: blue;
+}
+
+#ScoreHUD{
+  -fx-prompt-text-fill: white;
+}
+
+#CurrentUser{
+  -fx-text-fill: yellow;
+  -fx-font-size: 22;
+}
+
+.label{
+  -fx-text-fill:white;
+  -fx-font-size: 16
+}
+
+#PlayerSizeLabel{
+  -fx-font-size:20
+}
+
+#ScoreLabel{
+  -fx-font-size: 15
+}

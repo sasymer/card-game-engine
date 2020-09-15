@@ -1,0 +1,44 @@
+.root {
+    -fx-font-size: 12pt;
+    -fx-accent: #1e74c6;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-base: #ffeee9;
+
+}
+
+.button {
+    -fx-text-fill: black;
+    -fx-border-color: white;
+    -fx-background-color: #dddddd;
+    -fx-border-radius: 18;
+    -fx-background-radius: 20;
+    -fx-padding: 8;
+}
+
+
+.button:hover {
+    -fx-background-color: #f3efea;
+    -fx-effect: dropshadow(gaussian, black,2,0.5,0.5,1 );
+
+}
+
+#CurrentUser{
+    -fx-text-fill: yellow;
+    -fx-font-size: 18;
+}
+
+.toggle-button{
+    -fx-background-radius:80;
+    -fx-border-radius:80;
+    -fx-border-color: white;
+
+}
+
+#PlayerSizeLabel{
+    -fx-font-size:20
+}
+
+#ScoreLabel{
+    -fx-font-size: 15
+}
